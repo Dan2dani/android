@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    //match-parent: 풀로 다채운다
+    //wrap-content: 안에 내용물을 다 감싼다.
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        //이미지 만들기: src = @~파일
+
+        <ImageView
+            android:id="@+id/bts_image_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_1" />
+
+        <ImageView
+            android:id="@+id/bts_image_2"
+            android:src="@drawable/bts_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:id="@+id/bts_image_3"
+            android:src="@drawable/bts_3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        //이미지 만들기: src = @~파일
+        <ImageView
+            android:id="@+id/bts_image_4"
+            android:src="@drawable/bts_4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:id="@+id/bts_image_5"
+            android:src="@drawable/bts_5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:id="@+id/bts_image_6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        //이미지 만들기: src = @~파일
+        <ImageView
+            android:id="@+id/bts_image_7"
+            android:src="@drawable/bts_7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
